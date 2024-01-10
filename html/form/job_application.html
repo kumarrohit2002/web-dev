@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <form>
+        <label for="name">Name: </label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email: </label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="ph">Phone no: </label>
+        <br>
+        <input type="tel" name="ph" id="ph">
+        <br>
+        <label for="resume">Resume: </label>
+        <br>
+        <input type="file" name="resume" id="resume">
+        <br>
+        <label for="exp">Experience(years): </label>
+        <br>
+        <input type="number" name="exp" id="exp" min="0" max="50">
+        <br>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="html">HTML: </label>
+            <br>
+            <input type="checkbox" name="html" id="html">
+            <br>
+            <label for="css">CSS: </label>
+            <br>
+            <input type="checkbox" name="css" id="css">
+            <br>
+            <label for="javascript">HTML: </label>
+            <br>
+            <input type="checkbox" name="javascript" id="javascript">
+            <br>
+        </fieldset>
+        <select name="education" id="">
+            <option value="high_school">High_School</option>
+            <option value="middle_school">Middle_School</option>
+            <option value="B_tech">B.TECH</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="full">Full time: </label>
+            <br>
+            <input type="radio" name="radio" id="full">
+            <br>
+            <label for="part">Part time: </label>
+            <br>
+            <input type="radio" name="radio" id="part">
+            <br>
+        </fieldset>
+        <label for="comments">Additional Comments</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="write your comments"></textarea>
+
+        
+    </form>
+</body>
+</html>
