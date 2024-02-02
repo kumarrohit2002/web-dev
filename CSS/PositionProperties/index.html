@@ -14,19 +14,34 @@
             border: 3px solid black;
         }
         .img2{
-            position: relative;
+            /* position: relative;
             top: 80px;
-            left: 80px;
+            left: 80px; */
         }
         /* .img4{
             position: absolute;
             top: 50px;
             left: 100px;
         } */
+        .img4{
+            position: fixed;
+        }
+        #container{
+            height: 2000px;
+            background-color: antiquewhite;
+        }
+        .img3{
+            position:sticky;
+            top: 40px;
+        }
+        #box{
+            height: 2000px;
+            background-color: rgb(83, 186, 220);
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div id="container">
         <img 
         src="dog.jpeg"
         alt="dog"
@@ -55,6 +70,9 @@
         width="300px"
         class="img4"
         >
+    </div>
+    <div id="box">
+
     </div>
 </body>
 </html>
