@@ -6,24 +6,37 @@
     <title>Document</title>
 
     <style>
-        .container {
-            border: 2px solid black;
-            background-color: #fff;
+        .contianer {
+            border: 3px solid black;
+            background-color: #f6cccc;
             display: flex;
             flex-direction: row;
+            width: 600px;
+            padding: 2px;
+            margin: 10px;
         }
         #leftbox{
             background-color: aqua;
             border: 1px solid blue;
+            width: 47%;
+            margin: 3px;
+            padding: 2px;
+            flex-direction: column;
         }
         #rightbox{
-            background-color: pink;
+            background-color: rgb(248, 156, 171);
             border: 1px solid red;
+            width: 47%;
         }
         p{
             border: 1px solid rgb(199, 48, 48);
         }
-
+        @media (max-width: 600px)
+        {
+            .contianer{
+                flex-direction: column;
+            }
+        }
 
     </style>
 
@@ -35,7 +48,7 @@
             <p>Text2</p>
         </div>
         <div id="rightbox">
-            <img src="ai.avif" alt="AI">
+            <img height="300px" width="290px" src="ai.avif" alt="AI">
         </div>
     </div>
 </body>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :root{
+            --coustom_color1: black;
+            --coustom_color2: rgba(127, 255, 212, 0.664);
+            --coustom_width1:330px;
+        }
+
+        .container {
+            background-color: beige;
+            height: 600px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .box{
+            
+            background-color: var(--coustom_color2);
+            height: 330px;
+            width: var(--coustom_width1);
+            border: 2px solid var(--coustom_color1);
+            
+            margin: 4px;
+            padding: 4px;
+            
+
+            box-shadow: 10px 14px 8px 20px rgb(45, 56, 52);
+            /* box-shadow: (x-offset) (y-offset) (blur) (spread) (color); */
+
+
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+        <img height="70px" width="70px" src="ai.avif" alt="AI">
+        <h2>Welcome To Gen AI</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sed quaerat nulla nihil consectetur, earum ex
+            magnam eveniet voluptatum enim! Eum, quod illum!
+        </p>
+        </div>
+    </div>
+</body>
+
+</html>
