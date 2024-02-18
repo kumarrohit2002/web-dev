@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 150px;
+            background-color: rgb(118, 42, 125);
+            color: white;
+            font-size: 3em;
+            margin: 5px;
+
+            /* position: relative; */
+            /* transition-property: all ;
+            transition-duration: 2s;
+            /* transition-delay: 1s; 
+            transition-timing-function: linear; */
+
+            transition: all 2s linear 0s;
+        }
+        .box:hover{
+            width: 500px;
+            height: 300px;
+            background-color: rgb(204, 33, 62);
+        }
+        p{
+            margin: 5px;
+            transition: all 2s linear 0s;
+        }
+        p:hover{
+            font-size: 4em;
+            color: rgb(18, 161, 174);
+            /* opacity: 1; */
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box"> 
+            <p>Rohit</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.container {
+    height: 98vh;
+    width: 98vw;
+    background-color: #f3dfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 330px;
+    width: 300px;
+    background-color: rgb(190, 108, 122);
+    border: 3px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 4s ease-in-out;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.box:hover{
+    /* transform: rotate(-45deg); */
+    /* transform: skewX(30deg); */
+    /* transform: skewY(30deg); */
+
+    /* transform: scale(1.5, 1.2); */
+    transform: translate(580px,160px);
+    color: red;
+    background-color: rgb(92, 194, 186);
+    
+}
+
