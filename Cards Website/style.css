@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(183, 243, 243);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qrimg{
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    /* margin: auto; */
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.card{
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    margin: 5px;
+    
+}
