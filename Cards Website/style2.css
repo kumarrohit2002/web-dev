@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(162,189,221);
+    background: linear-gradient(90deg, rgb(192, 211, 234) 22%, rgb(195, 181, 221) 67%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius:20px;
+    background-color: #ebd6d6;
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+.cardimg{
+    height: 200px;
+    
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px  rgb(56, 56, 95); 
+
+}
+
+.cardimg img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+#musicLogo img{
+    height:30px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.pricebox{
+    height: 40px;
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px 8px 20px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(110, 110, 216);
+    box-shadow: 3px 5px 5px 2px rgb(56, 56, 95);
+
+    
+}
+.pricebox a{
+    margin-right: 15px;
+    
+}
+
+#priceimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px 0 10px;
+    
+}
+
+.payment{
+    border: 2px solid black;
+    height: 25px;
+    border-radius: 7px;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(84, 84, 217);
+    color: white;
+    box-shadow: 3px 5px 5px 2px rgb(56, 56, 95);
+}
+
+.cancel{
+    margin: 20px 80px 10px 95px;
+}
+
+.content{
+    margin:15px 0 0 25px;
+}
+
+

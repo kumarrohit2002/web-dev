@@ -5,7 +5,8 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(183, 243, 243);
+    background: rgb(162,189,221);
+    background: linear-gradient(90deg, rgba(162,189,221,1) 22%, rgba(181,156,223,1) 67%);
     position: relative;
     display: flex;
     justify-content: center;
@@ -40,6 +41,9 @@ img{
 }
 
 #content{
-    margin: 5px;
+    margin: 7px;
     
+}
+p{
+    margin-top:10px;
 }
