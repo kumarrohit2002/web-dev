@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header_content{
+    max-width: 1280px;
+    /* max-height: 50px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.logo{
+    display: flex;
+    gap: 0.5rem;
+}
+.logo_icon{
+    height:4.45rem;
+    width:2rem;
+}
+
