@@ -2,8 +2,8 @@ console.log("Hello World");
 
 
 // operator
-a=30;
-b=20;
+let a=30;
+let b=20;
 console.log("a : ",a);
 console.log("b : ",b);
 console.log("a + b : ",a+b);
@@ -14,7 +14,7 @@ console.log("a % b : ",a%b);
 console.log("2 ** 3 : ",2**3);
 console.log("a == b : ",a==b);
 console.log("a === b : ",a===b);
-console.log("a != b : ",a!=b);
+console.log("a !== b : ",a!==b);
 console.log("a != b : ",a!=b);
 console.log("a >= b : ",a>=b);
 
