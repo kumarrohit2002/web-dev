@@ -78,3 +78,40 @@ let b=a;
 a.value++;
 console.log(a.value);
 console.log(b.value);
+
+
+//for in loop
+let object={
+    a:10,
+    b:20,
+    c:30
+}
+
+for(let key in object) {
+    console.log(key," ",object[key]);
+}
+
+// Object cloning
+
+
+//  #1.
+// let des={};
+// for(let key in object){
+//     des[key]=object[key];
+// }
+// object.a++;
+// console.log(des);
+
+
+
+//  #2.
+// let des=Object.assign({},object);
+// object.a++;
+// console.log(des);
+
+
+// #3.
+let des={...object}; 
+object.a++;
+console.log(des);
+
